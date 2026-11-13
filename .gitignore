@@ -1,0 +1,17 @@
+# Never commit real data, reports or secrets
+*.pbix
+*.pbit
+*.xlsx
+*.xlsm
+*.csv
+!sample-data/*.csv
+data/raw/
+.env
+.env.*
+secrets*
+*.pem
+*.key
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+Thumbs.db
